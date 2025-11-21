@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
     <script defer type="module" src="/src/script/script.js"></script>
 </head>
 
@@ -22,6 +23,13 @@
                         Добавить
                     </button>
                 </form>
+                <div
+                    class="todo-text d-flex align-items-center justify-content-between p-3 mb-2 bg-white rounded shadow-sm">
+                    <span class="task-content fs-5">Написать задачу</span>
+                    <button class="btn btn-danger btn-sm rounded-circle delete-btn">
+                        <i class="bi bi-x-lg remuve-todo"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
